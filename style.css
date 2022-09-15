@@ -58,9 +58,12 @@ section p {
   color: #a1a1aa;
 }
 
-ul {
+section ul {
   display: flex;
+  flex-weap: wrap;
   gap: 16px;
+
+  margin-top: 24px;
 }
 
 .games-list img {
@@ -70,5 +73,6 @@ ul {
 
 .channel-list img {
   border-radius: 50%;
+  width: 70px;
 
 }
